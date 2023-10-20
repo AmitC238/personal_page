@@ -1,5 +1,31 @@
+/* Background */
+
+body {
+  background-image: url(personalbg.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
 /* Navbar */
 
+.navbar .navbar-expand-lg {
+  color: #b9b8d3;
+}
+
 .name {
-  color: blue;
+  color: #17629b;
+  text-decoration: none;
+  font-size: 20px;
+  justify-content: flex-end;
+}
+
+#main-menu {
+  justify-content: flex-end;
+}
+
+a.nav-link {
+  color: #17629b;
 }
